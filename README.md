@@ -2,7 +2,7 @@
 
 ## Background
 A database matching project I did as a consultant for the Swedish Agency for Economic and Regional Growth, which was later dubbed Project Alva.
-Originally a project that should have been done purely in Excel, a Python program has proven to be a better solution.
+Originally a project that should have been done purely in Excel, a Python program has proven to be a better solution. The 1.1 is an earlier version with more redundant bits of code and no user interface. Offers more flexibility to programmers and testers. The final version offers a rough user interface for non-programmer users.
 
 ## Function
 
@@ -30,4 +30,4 @@ The program was run directly from code using a Python interprefer and the user i
 This would enable manual run sequence input by reading run sequence code and outputs matching commands by making calls to the MatchBoxedLists function to use with specific conditions.
 
 ### Reduce amount of global variables
-A lot of variables are declared in Section 2. Ideally, each variable should be declares in the function that uses them (except the main function) instead. See if this can be attended to.
+A lot of variables are declared in Section 2. Ideally, each variable should be declared in the function that uses them (except the main function) instead. See if this can be attended to.
